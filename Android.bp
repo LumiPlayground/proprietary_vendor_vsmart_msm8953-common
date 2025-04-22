@@ -14627,6 +14627,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib/libdpmframework.so",
             ],
             shared_libs: [
+                "libcutils_shim",
                 "libdiag_system",
                 "libbinder",
                 "libcutils",
@@ -14649,6 +14650,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libdpmframework.so",
             ],
             shared_libs: [
+                "libcutils_shim",
                 "libdiag_system",
                 "libbinder",
                 "libcutils",
