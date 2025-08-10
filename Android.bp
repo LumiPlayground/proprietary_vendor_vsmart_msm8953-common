@@ -16939,3 +16939,10 @@ install_symlink {
     installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
     symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
 }
+
+install_symlink {
+    name: "vendor_firmware_wlan_prima_WCNSS_qcom_wlan_nv_bin",
+    soc_specific: true,
+    installed_location: "firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin",
+    symlink_target: "/vendor/etc/wifi/WCNSS_qcom_wlan_nv_v430mp_v1.5.bin",
+}
