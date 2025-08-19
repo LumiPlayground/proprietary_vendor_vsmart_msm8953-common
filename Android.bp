@@ -9049,7 +9049,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
-                "libhidltransport",
                 "libutils",
                 "liblog",
                 "libcutils",
@@ -12850,8 +12849,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -15906,9 +15903,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libhardware",
                 "libhidlbase",
-                "libhidltransport",
                 "vendor.qti.hardware.alarm@1.0",
-                "libhwbinder",
                 "libc++",
                 "libc",
                 "libm",
@@ -16491,10 +16486,10 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/power_off_alarm",
             ],
             shared_libs: [
+                "libc",
                 "liblog",
                 "libcutils",
                 "libc++",
-                "libc",
                 "libm",
                 "libdl",
             ],
