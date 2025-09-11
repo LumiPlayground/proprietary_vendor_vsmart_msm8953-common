@@ -399,7 +399,6 @@ PRODUCT_PACKAGES += \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmpbase \
-    libpn547_fw \
     libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
@@ -485,6 +484,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libpn547_fw \
     libqcbor \
     libqcmaputils \
     libqcrilFramework \
